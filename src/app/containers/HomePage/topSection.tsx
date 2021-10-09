@@ -8,8 +8,11 @@ import Blob from '../../../assets/images/blob.svg'
 import Button from '../../components/button';
 
 const TopSectionContainer = styled.div`
-        min-height: 600px;
+        min-height: 450px;
         margin-top: 6em;
+        @media only screen and (max-width: 768px) {
+            min-height: 350px
+        }
         ${tw`
             w-full
             max-w-screen-2xl
